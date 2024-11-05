@@ -37,10 +37,10 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp ESCAPE      &kp GRAVE        &kp MINUS             &kp EQUAL              &kp RS(DOLLAR)    &trans         &kp LESS_THAN  &kp UP_ARROW  &kp GREATER_THAN  &trans             &kp DELETE
-&trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND     &kp BACKSPACE  &kp LEFT       &kp DOWN      &kp RIGHT         &kp C_VOLUME_UP    &trans
-&trans  &kp LCTRL       &trans           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH         &kp DELETE     &trans         &trans        &kp RCTRL         &kp C_VOLUME_DOWN  &trans
-                                         &trans                &trans                 &kp LG(ENTER)     &trans         &trans         &mo 3
+&trans  &kp ESCAPE      &kp GRAVE             &kp MINUS             &kp EQUAL              &kp RS(DOLLAR)    &trans         &kp LESS_THAN  &kp UP_ARROW  &kp GREATER_THAN  &trans             &kp DELETE
+&trans  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND     &kp BACKSPACE  &kp LEFT       &kp DOWN      &kp RIGHT         &kp C_VOLUME_UP    &trans
+&trans  &kp LCTRL       &kp NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH         &kp DELETE     &trans         &trans        &kp RCTRL         &kp C_VOLUME_DOWN  &trans
+                                              &trans                &trans                 &kp LG(ENTER)     &trans         &trans         &mo 3
             >;
         };
 
