@@ -37,10 +37,10 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp ESCAPE      &kp GRAVE        &kp MINUS             &kp EQUAL              &kp RS(DOLLAR)    &trans         &kp PAGE_DOWN  &kp UP_ARROW  &kp PAGE_UP  &trans             &kp DELETE
-&trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND     &kp BACKSPACE  &kp LEFT       &kp DOWN      &kp RIGHT    &kp C_VOLUME_UP    &trans
-&trans  &kp LCTRL       &kp HASH         &kp BACKSLASH         &kp SLASH              &kp PIPE          &kp DELETE     &trans         &trans        &kp RCTRL    &kp C_VOLUME_DOWN  &trans
-                                         &trans                &trans                 &kp LG(ENTER)     &trans         &trans         &mo 3
+&trans  &kp ESCAPE        &kp GRAVE          &kp MINUS             &kp EQUAL              &kp RS(DOLLAR)    &trans         &kp EXCL  &kp UP_ARROW  &trans     &trans             &kp DELETE
+&trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND     &kp BACKSPACE  &kp LEFT  &kp DOWN      &kp RIGHT  &kp C_VOLUME_UP    &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN         &kp GREATER_THAN       &kp BACKSLASH     &trans         &kp DEL   &trans        &kp RCTRL  &kp C_VOLUME_DOWN  &trans
+                                             &trans                &trans                 &kp LG(ENTER)     &trans         &trans    &mo 3
             >;
         };
 
@@ -53,10 +53,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp ESCAPE  &kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3   &kp NUMBER_4      &kp N5           &kp NUMBER_6  &kp N7  &kp N8  &kp N9   &kp N0   &kp DELETE
-&kp F1      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN  &kp F6           &kp F7        &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans      &trans            &trans             &trans         &trans            &trans           &trans        &trans  &trans  &trans   &trans   &trans
-                                                 &kp LCTRL      &trans            &kp LA(ENTER)    &trans        &mo 3   &trans
+&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5           &kp NUMBER_6  &kp N7         &kp N8       &kp N9        &kp N0           &kp DELETE
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6           &kp F7        &kp F8         &kp F9       &kp F10       &kp F11          &kp F12
+&trans      &trans        &trans        &trans        &trans        &trans           &trans        &kp PAGE_DOWN  &kp PAGE_UP  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans
+                                        &trans        &trans        &kp LA(ENTER)    &trans        &mo 3          &trans
             >;
         };
 
